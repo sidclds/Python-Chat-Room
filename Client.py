@@ -7,9 +7,9 @@ import os
 import tkMessageBox
 import time
 try:
-    os.system("title SidChat Client")
+    os.system("title sidclds Chat Client")
 except:
-    print("Sorry, but this code supprots Windows only.")
+    print("Sorry, but this code supports Windows only.")
     time.sleep(5)
     os._exit(0)
 def receive():
