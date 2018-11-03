@@ -6,9 +6,9 @@ import random
 import time
 import os
 try:
-    os.system("title SidChat Server")
+    os.system("title sidclds Chat Server")
 except:
-    print("Sorry, but this code supprots Windows only.")
+    print("Sorry, but this code supports Windows only.")
     time.sleep(5)
     os._exit(0)
 admincode = raw_input("What is the admin code for this server: ")
